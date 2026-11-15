@@ -1,0 +1,19 @@
+{
+  "name": "my-js-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "CloverNT JavaScript Plugin Template",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@clovernt/sdk": "git+https://github.com/CloverNT/clovernt-sdk.git#dev",
+    "@types/node": "^22.10.0",
+    "electron": "^37.10.3",
+    "tsup": "^8.5.1",
+    "typescript": "^7.0.2"
+  }
+}

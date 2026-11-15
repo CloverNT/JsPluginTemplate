@@ -1,0 +1,9 @@
+{
+  "name": "MyJsPlugin",
+  "type": "js",
+  "version": "0.1.0",
+  "author": "your-name",
+  "description": "CloverNT JavaScript Plugin Template",
+  "entry": "main.cjs",
+  "rendererEntry": "renderer.js"
+}
